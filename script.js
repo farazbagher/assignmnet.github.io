@@ -9,17 +9,50 @@ let weather = {
              )
         
         .then((response) => response.json())
-        .then((data) => console.log(data));
+        .then((data) => this.displayWeather(data));
     },
     displayWeather: function(data) {
         const { name } = data;
-        const {icon, description } = data.weather;
-        const {temp, humidity, pressure, temp_min, temp_max, feels_like} = data.main;
+        const {icon, description } = data.weather[0];
+        const {temp, humidity} = data.main;
+        const {pressure, temp_min, temp_max, feels_like} = data.main;
         const {speed} = data.wind;
-        
+        console.log(name,icon,description,temp,humidity,pressure,temp_min,temp_max,feels_like,speed)
+        document.querySelector(".city").innertext = "Weather in " + name;
+        document.querySelector(".icon").src = "https://openweathermap.org/img/wn/"+ icon + "@2x.png";
+        document.querySelector(".temp").innertext = temp + "°C";
+        document.querySelector(".description").innertext = description;
+        document.querySelector(".humidity").innertext = 
+        "humidity: " + humidity + "%";
+        document.querySelector(".speed").innertext = 
+        "wind-speed: " + speed + "Km/h"; 
+        document.querySelector(".pressure").innertext = 
+        "pressure: " + pressure + "Hg";
+        document.querySelector(".temp_min").innertext = 
+        "temp_min: " + temp_min + "°C";
+        document.querySelector(".temp_max").innertext = 
+        "temp_max: " + temp_max + "°C";
+        document.querySelector(".feels_like").innertext = 
+        "feels_like: " + feels_like + "°C";
+        document.querySelector(".weather").classList.remove("loading"); 
 
-    }
+    },
 
+    search: function () {
+        this.fetchweather(document.querySelector(".search-bar").value);  
+    },
 };
 
+document.querySelector(".search button").addEventListener("click", function () {
+    weather.search();
 
+});
+
+document.querySelector(".search-bar").addEventListener("keyup", function (event) {
+    if (event.key == "Enter") {
+        weather.search();
+
+    }
+});
+
+weather.fetchWeather("Baku");
