@@ -137,7 +137,7 @@ let country= {
 }
 }
 
-displayCountry: function (data){
+displayCountry= function (data){
 
     const{ official } = data.name[0];
 
