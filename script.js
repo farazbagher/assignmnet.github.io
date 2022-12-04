@@ -120,3 +120,30 @@ setInterval(() => {
   timeElement.textContent = formatTime(now);
   dateElement.textContent = formatDate(now);
 }, 200);
+
+let country= {
+
+    fetchCountry: function (city) {
+        fetch(
+          "https://restcountries.com/v3.1/name/" 
+          + city + 
+          "?fullText=true" 
+            
+        )
+  
+
+
+
+}
+}
+
+displayCountry: function (data){
+
+    const{ official } = data.name[0];
+
+    document.querySelector(".official").innerText = official;
+
+
+}
+
+    
