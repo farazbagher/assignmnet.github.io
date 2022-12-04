@@ -22,6 +22,9 @@ let weather = {
       const { temp, humidity } = data.main;
       const { speed } = data.wind;
       const { pressure } = data.main;
+      const { temp_min } = data.main;
+      const { temp_max } = data.main;
+      const { temp_max } = data.main;
       document.querySelector(".city").innerText = "Weather in " + name;
       document.querySelector(".icon").src =
         "https://openweathermap.org/img/wn/" + icon + ".png";
@@ -33,6 +36,10 @@ let weather = {
         "Wind speed: " + speed + " km/h";
         document.querySelector(".pressure").innerText =
         "pressure: " + pressure + " Gh";
+        document.querySelector(".temp_min").innerText =
+        "temp-min: " + temp_min + " °C";
+        document.querySelector(".temp_max").innerText =
+        "temp-max: " + temp_max + " °C";
       document.querySelector(".weather").classList.remove("loading");
       document.body.style.backgroundImage =
         "url('https://source.unsplash.com/1600x900/?" + name + "')";
