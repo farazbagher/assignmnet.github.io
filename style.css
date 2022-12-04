@@ -7,7 +7,6 @@ body{
     margin: 0;
     background: #222;
     font-size: 120%;
-    background-image: <img class="YVj9w" sizes="(max-width: 767px) 100vw, (max-width: 1333px) min(100%, 1301px), (max-height: 756px) min(100%, 1301px), (min-aspect-ratio: 4484/2000) calc((calc(100vh - 175px)) * 2.242), calc(100vw - 32px)" srcset="https://images.unsplash.com/photo-1471960098958-2059c6681742?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1301&amp;q=80 1301w, https://images.unsplash.com/photo-1471960098958-2059c6681742?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1601&amp;q=80 1601w, https://images.unsplash.com/photo-1471960098958-2059c6681742?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1901&amp;q=80 1901w, https://images.unsplash.com/photo-1471960098958-2059c6681742?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=2201&amp;q=80 2201w, https://images.unsplash.com/photo-1471960098958-2059c6681742?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=2501&amp;q=80 2501w, https://images.unsplash.com/photo-1471960098958-2059c6681742?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=2602&amp;q=80 2602w, https://images.unsplash.com/photo-1471960098958-2059c6681742?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=2801&amp;q=80 2801w, https://images.unsplash.com/photo-1471960098958-2059c6681742?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=3101&amp;q=80 3101w, https://images.unsplash.com/photo-1471960098958-2059c6681742?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=3202&amp;q=80 3202w, https://images.unsplash.com/photo-1471960098958-2059c6681742?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=3401&amp;q=80 3401w, https://images.unsplash.com/photo-1471960098958-2059c6681742?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=3701&amp;q=80 3701w, https://images.unsplash.com/photo-1471960098958-2059c6681742?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=3802&amp;q=80 3802w, https://images.unsplash.com/photo-1471960098958-2059c6681742?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=4001&amp;q=80 4001w, https://images.unsplash.com/photo-1471960098958-2059c6681742?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=4301&amp;q=80 4301w, https://images.unsplash.com/photo-1471960098958-2059c6681742?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=4402&amp;q=80 4402w, https://images.unsplash.com/photo-1471960098958-2059c6681742?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=4484&amp;q=80 4484w" src="https://images.unsplash.com/photo-1471960098958-2059c6681742?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80" alt="Gargoyle landmark building">;
     
 
 }
@@ -18,10 +17,7 @@ body{
     margin-left: 8px;
 }
 
-.icon {
 
-
-}
 
 .felx{
     display: flex;
@@ -88,22 +84,5 @@ h1.temp {
 
 }
 
-.weather.loading {
-
-    visibility: hidden;
-    max-height: 20px;
-    position: relative;
 
 
-}
-
-.weather.loading:after {
-
-    visibility: visible;
-    content: "Loading...";
-    color: white;
-    position: absolute;
-    top: 0;
-    left: 20px;
-
-}
